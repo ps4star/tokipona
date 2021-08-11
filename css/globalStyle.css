@@ -175,8 +175,10 @@ body {
 }
 
 #main-content p {
+	margin-bottom: 0.5rem;
+
 	font-size: 1.5rem;
-	line-height: 2rem;
+	line-height: 1.85rem;
 }
 
 #main-content > div {
@@ -231,6 +233,6 @@ footer p {
 	user-select: text;
 }
 
-footer a {
+a {
 	color: inherit;
 }
