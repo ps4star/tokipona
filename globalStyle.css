@@ -202,10 +202,19 @@ body {
 }
 
 table {
+	margin: 1rem auto;
+
 	font-size: 2rem;
 }
 
-td:first-of-type, tr:first-of-type > td {
+table > caption {
+	margin-bottom: 0.25rem;
+
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+td:first-of-type, th {
 	background: var(--bg2);
 }
 
@@ -215,7 +224,7 @@ td:not(:first-of-type) {
 	text-align: center;
 }
 
-td {
+td, th {
 	padding: 0 1rem 0 0;
 
 	border: 1px solid gray;
