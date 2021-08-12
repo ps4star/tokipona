@@ -189,11 +189,11 @@ body {
 	background: var(--bg2);
 }
 
-#main-content > div[wrong] {
+#main-content > div.wrong {
 	background: rgba(255, 0, 0, 0.3);
 }
 
-#main-content > div[correct] {
+#main-content > div.correct {
 	background: rgba(0, 255, 0, 0.3);
 }
 
@@ -241,13 +241,15 @@ td, th {
 footer {
 	margin-bottom: 3rem;
 	border-top: 1px solid gray;
+
+	user-select: text;
 }
 
 footer p {
 	margin-top: 0.5rem;
 
 	text-align: center;
-	user-select: text;
+	user-select: inherit;
 }
 
 a {
